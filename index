@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bob Smith Resume</title>
+    <style>
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: aliceblue;
+        }
+
+        table {
+            width: 100%;
+            border: 1px solid black;
+        }
+
+        dt {
+            font-weight: bold;
+            font-size: 2em;
+        }
+
+        section {
+            padding: 10px;
+            border: 1p solid black margin:10px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="header">
+        <h1>Bob Smith Resume</h1>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Interests">Interests</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <article>
+        <p>
+
+        </p>Welcome to my website hope you enjoy it.
+    </article>
+    <hr>
+    <section class="Experience">
+        <h2>Experience</h2>
+        <table>
+            <colgroup>
+                <col span="1" style="background-color: aliceblue;" </colgroup>
+            <tr>
+                <th>Company</th>
+                <th>Details</th>
+                <th>Years</th>
+            </tr>
+            <tr>
+                <td>Discoveryvip</td>
+                <td>Created Courses</td>
+                <td>2002 - 2021</td>
+            </tr>
+            <tr>
+                <td>Basescripts</td>
+                <td>Online Elearning</td>
+                <td>2010-2015</td>
+            </tr>
+            <tr>
+                <td>Discoveryvip</td>
+                <td>Created Courses</td>
+                <td>2002 - 2021</td>
+            </tr>
+        </table>
+
+    </section>
+    <section class="Education">
+        <h2>Education</h2>
+        <dl>
+            <dt>My University</dt>
+            <dd>MBA</dd>
+            <dt>Degree</dt>
+            <dd>Computer Science</dd>
+        </dl>
+
+    </section>
+    <section class="Interests">
+        <h2>Interests</h2>
+        <ul>
+            <li> Computers </li>
+            <li> HTML </li>
+            <li> Javascript </li>
+        </ul>
+    </section>
+    <section class="skills">
+
+    </section>
+    <section class="contact">
+
+    </section>
+    <footer class="footer">Copyright (C) 2025 Bob smith Content, please contact me to
+        find out more. PLEASE NOTE, THIS IS ONLY A WEBSITE DESIGNED TO BE USED TO LEARN HTML
+    </footer>
+</body>
+
+</html>
